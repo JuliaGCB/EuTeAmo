@@ -1,0 +1,52 @@
+body {
+  background-color: rgb(236, 23, 112);
+  font: normal 15pt arial;
+}
+header {
+  color: #fff;
+  text-align: center;
+}
+section {
+  background: white;
+  border-radius: 3px;
+  padding: 15px;
+  width: 500px;
+  margin: 0 auto;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+}
+footer {
+  color: #fff;
+  text-align: center;
+  font-style: italic;
+}
+#simOUnao {
+  color: black;
+  font-size: 20px;
+}
+
+div {
+  text-align: center;
+}
+input {
+  border-radius: 5px;
+  border: 3px solid rgb(236, 23, 112);
+}
+input#txtrespo {
+  font-size: large;
+  width: 300px;
+}
+input#verificar {
+  font-size: large;
+  color: #000;
+  background-color: white;
+}
+h1 {
+  font-style: italic;
+  font-size: 50px;
+  color: darkred;
+}
+
+#res {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
