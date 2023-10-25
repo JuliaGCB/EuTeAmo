@@ -10,13 +10,13 @@ function verificar() {
   var img = document.createElement("img");
   img.setAttribute("id", "foto");
 
-  if (resp == "Sim") {
+  if (resp == "Sim" || resp == "sim") {
     res.innerHTML = `Meu amor eu também te amo &#128525; `;
     img.setAttribute("src", "JuLu.png");
     audio.currentTime = 0.9;
     audio.play();
     document.body.style.background = "#c40b23";
-  } else if (resp == "Não") {
+  } else if (resp == "Não" || resp == "não" || resp == "nao") {
     res.innerHTML = `Você não me ama? Que tristeza &#128532;`;
     img.setAttribute("src", "chorando.png");
     document.body.style.background = "#436cf5";
